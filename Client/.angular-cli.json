@@ -6,7 +6,7 @@
   "apps": [
     {
       "root": "angular",
-      "outDir": "wwwroot/dist",
+      "outDir": "wwwroot",
       "assets": [
         "assets",
         "favicon.ico"
