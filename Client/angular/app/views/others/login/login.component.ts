@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { LoginService } from '../../../services/aba.services';
+import { ClientLoginService } from '../../../services/client.services';
 import { Router } from '@angular/router';
 
 @Component({
@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
 
-  constructor(private loginService :LoginService,private router: Router) { }
+  constructor(private loginService :ClientLoginService,private router: Router) { }
 
   ngOnInit() {
     this.Login();
